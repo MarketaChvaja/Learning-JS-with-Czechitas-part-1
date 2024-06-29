@@ -42,6 +42,31 @@ else {
 
 */
 
-// WHO IS OLDER?
+// WHO IS OLDER? -- WHERE IS BUG?
+
+let vekAsterix = 20;
+let vekObelix = prompt("Zadej odhadovaný věk Obelixe:");
+let vekPanoramix = 84;
+
+console.log("Věk Asterixe je " + vekAsterix + " let, věk Obelixe je " + vekObelix + "let a věk druida Panoramixe je " + vekPanoramix + "let.")
+
+let vekGalu = vekAsterix + vekObelix;
+
+if (vekGalu < vekPanoramix) {
+    console.log("Panoramix je starší než oba dva Galové dohromady.")
+}
+else if (vekGalu === vekPanoramix) {
+    console.log("Panoramix je stejně starý jako oba dva Galové dohromady.")
+}
+else {
+    console.log("Věk Asterixe a Obelixe v součtu je větší než věk druida Panoramixe.")
+}
+;
 
 
+//CYKLY FOR, WHILE
+
+for (let i = 1; i < 5; i++) {
+    console.log(i + ". Říman")
+}
+;
