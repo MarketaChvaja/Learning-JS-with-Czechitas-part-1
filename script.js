@@ -154,10 +154,11 @@ let intervalEnd = Number(intervalEndPrompt);
 
 //WHILE CYCLE
 
-/*
+
 console.log("intervalStart", intervalStart);
 console.log("intervalEnd", intervalEnd);
 
+/*
 let number = intervalStart;
 
 while (number <= intervalEnd) {
